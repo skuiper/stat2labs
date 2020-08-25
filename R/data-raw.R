@@ -1,6 +1,6 @@
 setwd("~/Dropbox/Kuiper Sklar Public/Clean csv data")
 temp = list.files(pattern="*.csv")
-for (i in 1:length(temp)) assign(substr(temp[i], 1, nchar(temp[i])-4), read_csv(temp[i]))
+for (i in 1:length(temp)) assign(substr(temp[i], 1, nchar(temp[i])-4), readr::read_csv(temp[i]))
 
 usethis::use_data(`C1 Age`, `C1 Birdnest`, `C1 Car1`, `C1 ChiSq`, `C1 Emissions`, `C1 Emissions-alternative`, `C1 Faculty`, `C1 Groundwater-not used`,
                   `C1 MedSalaries`, `C1 Mice`, `C1 Music`, `C1 NLBB Salaries`, `C1 SameMean`, `C1 Twins`, `C1 Variable Descriptions`, overwrite = TRUE)

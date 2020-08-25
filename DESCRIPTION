@@ -16,10 +16,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports:
 	data.table (>= 1.9.4),
-	dplyr,
 	devtools,
 	readr,
-	usethis,
-	stringr
+	usethis
 Depends: 
     R (>= 2.10)
