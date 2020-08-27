@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Shonda",
            family = "Kuiper",
            role = c("aut", "cre"),
-           email = "kuipers@grinnell.edu"
+           email = "kuipers@grinnell.edu")
 Description: A package that contains all the needed datasets for the Practicing Statistics textbook by Kuiper and Sklar.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
