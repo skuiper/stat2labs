@@ -1,13 +1,12 @@
-Package: myfirstpackage
-Title: What the Package Does (One Line, Title Case)
+Package: stat2labs
+Title: A package that contains all the needed datasets for the Practicing Statistics textbook by Kuiper and Sklar.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Shonda",
+           family = "Kuiper",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "kuipers@grinnell.edu"
+Description: A package that contains all the needed datasets for the Practicing Statistics textbook by Kuiper and Sklar.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
@@ -16,8 +15,48 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports:
 	data.table (>= 1.9.4),
-	devtools,
-	readr,
-	usethis
+	broom,
+car,
+caret,
+CarletonStats,
+cluster,
+dbplyr,
+factoextra,
+faraway,
+fastR,
+fastR2,
+ggformula,
+ggplot2,
+ggvis,
+leaflet,
+leaps,
+lubridate,
+manipulate,
+maps,
+maptools
+mosaic,
+ncvreg,
+plotly,
+plyr,
+readr,
+ResourceSelection,
+rgdal,
+rgeos,
+rms,
+RSQLite,
+rvest,
+rgeos,
+shiny,
+sp package,
+stringr,
+survival,
+tidyr,
+tree,
+visreg,
+shinythemes,
+gdata,
+learnr,
+dplyr
+
 Depends: 
     R (>= 2.10)
